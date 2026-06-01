@@ -30,3 +30,8 @@ int main()
         //menulis dan memasukkan nilai dari baris ke dalam file
         outfile << baris << endl;
     }
+    //menutup file apabila telah selesai di tulis
+    outfile.close();
+
+    //membuka file dalam mode membaca
+    ifstream infile;
